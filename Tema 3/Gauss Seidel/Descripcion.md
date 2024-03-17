@@ -38,7 +38,9 @@ Empieza con una suposición inicial de las soluciones para todas las incógnitas
 - Una vez que el criterio de parada se cumple, los valores de las incógnitas calculados en la última iteración se consideran las 
   soluciones aproximadas del sistema de ecuaciones.
 
-  Este algoritmo se repite hasta que se alcanza el criterio de parada, lo que indica que las soluciones convergen a una solución estable 
-  o que se ha alcanzado el número máximo de iteraciones permitidas. Es importante tener en cuenta que la convergencia del método de 
-  Gauss-Seidel puede depender de varios factores, como la elección de la suposición inicial y las propiedades de la matriz de coeficientes 
-  del sistema de ecuaciones lineales.
+Este algoritmo se repite hasta que se alcanza el criterio de parada, lo que indica que las soluciones convergen a una solución estable 
+o que se ha alcanzado el número máximo de iteraciones permitidas. Es importante tener en cuenta que la convergencia del método de 
+Gauss-Seidel puede depender de varios factores, como la elección de la suposición inicial y las propiedades de la matriz de coeficientes 
+del sistema de ecuaciones lineales.
+
+## Implementacion
