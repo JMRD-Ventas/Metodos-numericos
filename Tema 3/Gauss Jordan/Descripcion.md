@@ -41,4 +41,5 @@
   lado izquierdo de la matriz aumentada.
 
 # Implementacion
+[GitHub Pages](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
   
