@@ -10,34 +10,34 @@
   útil cuando se busca la inversa de una matriz o cuando se necesita resolver sistemas de ecuaciones lineales con múltiples soluciones.
 
 ## Algoritmo
-### Formar la matriz aumentada: 
-- Toma el sistema de ecuaciones lineales y escribe las coeficientes de las variables en una matriz, junto con 
+ ### Formar la matriz aumentada: 
+ - Toma el sistema de ecuaciones lineales y escribe las coeficientes de las variables en una matriz, junto con 
   los términos constantes. Esta matriz es conocida como la matriz aumentada.
 
-### Convertir el primer elemento de la matriz en uno: 
-- Divide toda la primera fila de la matriz aumentada por el valor del primer elemento (el coeficiente de la 
+ ### Convertir el primer elemento de la matriz en uno: 
+ - Divide toda la primera fila de la matriz aumentada por el valor del primer elemento (el coeficiente de la 
   primera variable en la primera ecuación).
 
-### Hacer ceros debajo del primer elemento de la diagonal principal: 3
-- Para cada fila por debajo de la primera fila, resta múltiplos adecuados de la primera fila para hacer cero 
+ ### Hacer ceros debajo del primer elemento de la diagonal principal: 3
+ - Para cada fila por debajo de la primera fila, resta múltiplos adecuados de la primera fila para hacer cero 
   el elemento que se encuentra directamente debajo 
   del primer elemento de la diagonal principal.
 
-### Repetir el proceso para los elementos restantes: 
-- Repite los pasos 2 y 3 para cada elemento de la diagonal principal, convirtiendo cada uno en uno y haciendo 
+ ### Repetir el proceso para los elementos restantes: 
+ - Repite los pasos 2 y 3 para cada elemento de la diagonal principal, convirtiendo cada uno en uno y haciendo 
   ceros debajo de él.
 
-### Obtener la forma escalonada reducida: 
-- Continúa los pasos hasta que la matriz se convierta en una forma escalonada reducida, donde todos los elementos 
+ ### Obtener la forma escalonada reducida: 
+ - Continúa los pasos hasta que la matriz se convierta en una forma escalonada reducida, donde todos los elementos 
   por encima y por debajo de la diagonal principal sean cero, y cada elemento de la diagonal principal sea uno.
 
-### Interpretar los resultados: 
-- Una vez que tengas la forma escalonada reducida, las soluciones al sistema de ecuaciones están directamente leíbles 
+ ### Interpretar los resultados: 
+ - Una vez que tengas la forma escalonada reducida, las soluciones al sistema de ecuaciones están directamente leíbles 
   de la matriz. Si hay filas de ceros en la parte inferior de la matriz, significa que hay infinitas soluciones o que 
   el sistema es inconsistente.
 
-### Si es necesario, realiza operaciones adicionales: 
-- Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
+ ### Si es necesario, realiza operaciones adicionales: 
+ - Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
   lado izquierdo de la matriz aumentada.
 
 # Implementacion
