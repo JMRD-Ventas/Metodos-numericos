@@ -21,21 +21,35 @@
   ### 1. Preparación inicial: 
   - Antes de comenzar, necesitas tener tu sistema de ecuaciones lineales en forma matricial. Es decir, necesitas tener 
     todas las variables y constantes organizadas en una matriz.
+
   ### 2. Descomposición de la matriz: 
   - Divide la matriz de coeficientes en dos partes: una matriz diagonal y el resto de la matriz. La matriz diagonal son 
     los elementos de la diagonal principal de la matriz original, y el resto son los elementos que no están en la diagonal 
     principal.
-  ### 3. Operaciones para obtener la forma escalonada: 
-  - Aplicas operaciones simples a las filas para hacer ceros debajo de los elementos principales (el primer número no nulo de 
-    cada fila). El objetivo es llevar la matriz a una forma 
-    escalonada. Por ejemplo, podrías restar el doble de la primera fila de la segunda fila para hacer cero el primer elemento 
-    de la segunda fila. Repites este proceso para cada fila.
-  ### 4. Resolución del sistema de ecuaciones: 
-  - Una vez que has obtenido la forma escalonada, puedes resolver el sistema de ecuaciones resultante. Empiezas desde la última 
-    ecuación y despejas la última incógnita. Luego, sustituyes este valor en la penúltima ecuación y despejas la siguiente incógnita. 
-    Repites este proceso hasta haber encontrado todos los valores de las incógnitas.
-  ### 5. Comprobación: 
-  - Finalmente, sustituyes los valores obtenidos en las ecuaciones originales para asegurarte de que sean soluciones válidas del 
-    sistema de ecuaciones.
+
+  ### 3. Iniciar con una suposición inicial: 
+  - Comienza con una suposición inicial para las soluciones de tus variables. Esto podría ser cualquier valor, pero es 
+    común empezar con todos los valores en cero.
+
+  ### 4. Iteración: 
+  - Ahora, para cada variable en tu sistema, usa la fila correspondiente en la matriz de coeficientes y las soluciones 
+    actuales de las otras variables (usando la suposición inicial para la primera iteración) para calcular una nueva 
+    estimación para esa variable. Repite este proceso para cada variable.
+
+  ### 5. Actualización de las soluciones: 
+  - Después de calcular una nueva estimación para cada variable, actualiza tus soluciones actuales con estas nuevas estimaciones.
+
+  ### 6. Comprobación de convergencia: 
+  - Repite los pasos 4 y 5 hasta que tus soluciones converjan a una precisión aceptable. Esto significa que las soluciones no 
+    cambian mucho entre iteraciones.
+
+  ### 7. Verificación de la solución: 
+  - Una vez que has alcanzado la convergencia, verifica tus soluciones sustituyéndolas en las ecuaciones originales para asegurarte 
+  de que satisfacen todas las ecuaciones.
+
+  ### 8. Finalización: 
+  - Si tus soluciones son aceptables, entonces has resuelto tu sistema de ecuaciones utilizando el método de Jacob.
+
+Recuerda que la velocidad de convergencia puede variar dependiendo de la naturaleza del sistema de ecuaciones, y puede que necesites ajustar la precisión o la suposición inicial para obtener resultados satisfactorios.
 
 ## Implementacion
