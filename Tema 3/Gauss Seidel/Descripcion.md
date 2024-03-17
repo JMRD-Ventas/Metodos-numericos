@@ -12,29 +12,29 @@ actualizar todos los valores simultáneamente, en Gauss-Seidel, los valores actu
 de ser calculados. Esto puede llevar a una convergencia más rápida en algunos casos.
 
 ## Pasos
-### Inicialización: 
+### 1. Inicialización: 
 Empieza con una suposición inicial de las soluciones para todas las incógnitas del sistema de ecuaciones.
 
-### Iteración:
--  Para cada ecuación en el sistema, calcula el valor de la incógnita utilizando los valores actuales de las otras incógnitas 
-   (puedes empezar con la primera ecuación y luego seguir con las siguientes, o puedes cambiar el orden dependiendo de tu 
-   preferencia).
+### 2. Iteración:
+- Para cada ecuación en el sistema, calcula el valor de la incógnita utilizando los valores actuales de las otras incógnitas 
+  (puedes empezar con la primera ecuación y luego seguir con las siguientes, o puedes cambiar el orden dependiendo de tu 
+  preferencia).
 
 - Utiliza los nuevos valores calculados para actualizar las soluciones de las incógnitas.
 
 - Repite este proceso para cada ecuación en el sistema.
 
-### Criterio de parada:
+### 3. Criterio de parada:
 - Define un criterio de parada, como la diferencia entre los valores de las incógnitas en dos iteraciones sucesivas. Si esta
   diferencia es lo suficientemente pequeña (por debajo de un cierto umbral), detén el proceso iterativo. También puedes
   establecer un número máximo de iteraciones como criterio de parada.
 
-### Convergencia:
+### 4. Convergencia:
 - Comprueba si las soluciones convergen a una solución estable. Si no es así, es posible que necesites ajustar el sistema, cambiar
   la suposición inicial o utilizar otro método de 
   resolución.
   
-### Resultados:
+### 5. Resultados:
 - Una vez que el criterio de parada se cumple, los valores de las incógnitas calculados en la última iteración se consideran las 
   soluciones aproximadas del sistema de ecuaciones.
 
