@@ -10,3 +10,32 @@ en cada iteración se actualizan las soluciones de las ecuaciones utilizando los
 iteraciones anteriores. A diferencia del método de Jacobi, en el que se utilizan los valores de la iteración anterior para 
 actualizar todos los valores simultáneamente, en Gauss-Seidel, los valores actualizados se utilizan inmediatamente después 
 de ser calculados. Esto puede llevar a una convergencia más rápida en algunos casos.
+
+## Pasos
+### Inicialización: 
+Empieza con una suposición inicial de las soluciones para todas las incógnitas del sistema de ecuaciones.
+
+### Iteración:
+-  Para cada ecuación en el sistema, calcula el valor de la incógnita utilizando los valores actuales de las otras incógnitas 
+   (puedes empezar con la primera ecuación y luego seguir con las siguientes, o puedes cambiar el orden dependiendo de tu 
+   preferencia).
+
+- Utiliza los nuevos valores calculados para actualizar las soluciones de las incógnitas.
+
+- Repite este proceso para cada ecuación en el sistema.
+
+### Criterio de parada:
+- Define un criterio de parada, como la diferencia entre los valores de las incógnitas en dos iteraciones sucesivas. Si esta
+  diferencia es lo suficientemente pequeña (por debajo de un cierto umbral), detén el proceso iterativo. También puedes
+  establecer un número máximo de iteraciones como criterio de parada.
+
+### Convergencia:
+- Comprueba si las soluciones convergen a una solución estable. Si no es así, es posible que necesites ajustar el sistema, cambiar
+  la suposición inicial o utilizar otro método de 
+  resolución.
+  
+### Resultados:
+- Una vez que el criterio de parada se cumple, los valores de las incógnitas calculados en la última iteración se consideran las 
+  soluciones aproximadas del sistema de ecuaciones.
+
+Este algoritmo se repite hasta que se alcanza el criterio de parada, lo que indica que las soluciones convergen a una solución estable o que se ha alcanzado el número máximo de iteraciones permitidas. Es importante tener en cuenta que la convergencia del método de Gauss-Seidel puede depender de varios factores, como la elección de la suposición inicial y las propiedades de la matriz de coeficientes del sistema de ecuaciones lineales.
