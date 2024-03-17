@@ -10,7 +10,7 @@
   útil cuando se busca la inversa de una matriz o cuando se necesita resolver sistemas de ecuaciones lineales con múltiples soluciones.
 
 ## Algoritmo
- ### Formar la matriz aumentada: 
+ 1. Formar la matriz aumentada: 
  - Toma el sistema de ecuaciones lineales y escribe las coeficientes de las variables en una matriz, junto con 
   los términos constantes. Esta matriz es conocida como la matriz aumentada.
 
