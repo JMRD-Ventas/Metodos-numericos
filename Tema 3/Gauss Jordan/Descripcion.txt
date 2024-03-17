@@ -1,8 +1,2 @@
-<em> Gauss Jordan </em>
-
 # ¿Que es Gauss Jordan?
-## El método de Gauss-Jordan combina las operaciones de eliminación gaussiana con 
-## operaciones adicionales para convertir la matriz de coeficientes en la matriz identidad. 
 
-## La principal diferencia con la eliminación gaussiana es que en Gauss-Jordan se continúan 
-## las operaciones hasta convertir A en la identidad, en lugar de detenerse en una matriz triangular superior.
