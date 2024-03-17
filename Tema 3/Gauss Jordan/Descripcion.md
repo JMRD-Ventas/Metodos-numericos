@@ -40,5 +40,5 @@
 - Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
   lado izquierdo de la matriz aumentada.
 
-  # Implementacion
+# Implementacion
   
