@@ -44,3 +44,4 @@
   del sistema de ecuaciones lineales.
 
 ## Implementacion
+[Implementacion del metodo de Gauss](https://docs.google.com/spreadsheets/d/126d6fVLOEG1j31MZZNvPLMYPxiLwVk9_Ih7ST6xk3Z8/edit?usp=sharing)
