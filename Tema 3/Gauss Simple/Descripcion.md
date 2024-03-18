@@ -26,4 +26,4 @@
     sistema de ecuaciones.
 
 ## Implementacion
-[Implementacion del metodo de Guass Jordan]([https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1VNyxf74rtmIrbNZXjKSa90xqo4Xoaky72CX9Hhu8SLU/edit?usp=sharing)https://docs.google.com/spreadsheets/d/1VNyxf74rtmIrbNZXjKSa90xqo4Xoaky72CX9Hhu8SLU/edit?usp=sharing)
+[Implementacion del metodo de Gauss](https://docs.google.com/spreadsheets/d/1VNyxf74rtmIrbNZXjKSa90xqo4Xoaky72CX9Hhu8SLU/edit?usp=sharing)
