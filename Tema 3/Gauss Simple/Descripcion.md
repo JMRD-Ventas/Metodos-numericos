@@ -10,7 +10,7 @@
 
 ## Pasos
   ### 1. Formación de la matriz aumentada: 
-  - Luego, conviertes este sistema en una matriz. Las columnas representarán los coeficientes de las incógnitas y la última 
+  - Conviertes este sistema en una matriz. Las columnas representarán los coeficientes de las incógnitas y la última 
     columna los términos constantes. 
   ### 2. Operaciones para obtener la forma escalonada: 
   - Aplicas operaciones simples a las filas para hacer ceros debajo de los elementos principales (el primer número no nulo de 
