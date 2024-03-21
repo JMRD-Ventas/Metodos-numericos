@@ -25,5 +25,5 @@
   - Finalmente, sustituyes los valores obtenidos en las ecuaciones originales para asegurarte de que sean soluciones válidas del 
     sistema de ecuaciones.
 
-## Ejercicios con implementacion
+## Implementacion y ejercicios
 [Ejercicios del metodo de Gauss](https://docs.google.com/spreadsheets/d/1VNyxf74rtmIrbNZXjKSa90xqo4Xoaky72CX9Hhu8SLU/edit?usp=sharing)
