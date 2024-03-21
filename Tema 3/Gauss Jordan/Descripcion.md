@@ -40,6 +40,6 @@
  - Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
   lado izquierdo de la matriz aumentada.
 
-# Implementacion
+# Implementacion y ejercicios
 [Implementacion del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
   
