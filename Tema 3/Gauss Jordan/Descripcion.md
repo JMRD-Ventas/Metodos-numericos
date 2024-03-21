@@ -41,5 +41,5 @@
   lado izquierdo de la matriz aumentada.
 
 # Implementacion y ejercicios
-[Implementacion del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
+[Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
   
