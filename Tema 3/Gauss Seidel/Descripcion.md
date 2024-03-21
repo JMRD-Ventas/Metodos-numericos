@@ -43,5 +43,5 @@
   Gauss-Seidel puede depender de varios factores, como la elección de la suposición inicial y las propiedades de la matriz de coeficientes 
   del sistema de ecuaciones lineales.
 
-## Implementacion
+## Implementacion y Ejercicios
 [Implementacion del metodo de Gauss - Seidel](https://docs.google.com/spreadsheets/d/126d6fVLOEG1j31MZZNvPLMYPxiLwVk9_Ih7ST6xk3Z8/edit?usp=sharing)
