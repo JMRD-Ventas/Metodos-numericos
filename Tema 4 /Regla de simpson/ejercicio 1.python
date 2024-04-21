@@ -1,0 +1,59 @@
+from math import *
+
+def evaluacion (x):
+    copia=funcion.copy()
+    for j in range (len(copia)):
+        if copia [j]=="x":
+            copia [j]==x
+        return eval("".join(copia))
+    
+funcion=list (input("dame la integral/funcion:  "))
+b=float (input("dame el intervalo superior:  "))
+a=float(input ("dame el intervalo inferior"))
+n=int (input("dame el numero n:  "))
+
+h=(b-a)/n
+total=0
+for i in range (1,n):#range(n-1)
+    x=a(i*h)
+    if(i%2==0):
+        total+=2*evaluacion(x)
+    else:
+        total+=4*evaluacion(x)
+    total+=evaluacion(a)+evaluacion(b)
+    total=total((1/3)*h)
+    print (f"resultado= {total}")
+
+1. El usuario ingresará la función a integrar y se convertirá en una lista para manejarla mejor.
+
+2. El usuario ingresará el límite superior del intervalo de integración, que se guardará en una variable llamada "b".
+
+3. El usuario ingresará el límite inferior del intervalo de integración, que se guardará en una variable llamada "a".
+
+4. El usuario ingresará el valor de "n", que se guardará en una variable con el mismo nombre.
+
+5. Se calculará el valor de "h" restando el límite superior menos el límite inferior y dividiendo todo entre "n".
+
+6. Se creará una variable llamada "total" donde se almacenará el resultado.
+
+7. Se realizará un ciclo que se encargará de evaluar la función en x0, x1, x2, ..., xn.
+
+8. Dentro del ciclo, se evaluará si el valor de "i" es par o impar para determinar si se multiplicará por 2 o 4, respectivamente.
+
+9. Se creará una función llamada "evaluacion" que recibirá un argumento "x" y evaluará la función ingresada por el usuario en ese valor de "x".
+
+10. Dentro de la función "evaluacion", se hará una copia de la función ingresada como lista.
+
+11. Se recorrerá la copia de la lista reemplazando cada ocurrencia de "x" por el valor de "x" recibido como argumento.
+
+12. Se convertirá la lista modificada en una cadena de texto utilizando el método "join".
+
+13. Se evaluará la cadena de texto como una expresión y se devolverá el resultado.
+
+14. El resultado de la evaluación se multiplicará por 2 o 4 según corresponda (si "i" es par o impar) y se sumará a la variable "total".
+
+15. Después del ciclo, se sumará la evaluación de la función en el límite superior y en el límite inferior a la variable "total".
+
+16. Finalmente, se multiplicará "total" por (h/3) y se almacenará el resultado en la misma variable "total".
+
+17. Se imprimirá el valor final de "total", que será la aproximación de la integral utilizando el método del trapecio compuesto.
